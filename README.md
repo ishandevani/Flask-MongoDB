@@ -6,7 +6,7 @@ Build a Flask application that includes a JSON API route at /api, which reads da
 
 # Download & Setup
 
-## Step-1: Creating & activating venv Windows:
+## Step-1: Creating & activating venv linux:
 
 ```bash
 python -m venv venv
