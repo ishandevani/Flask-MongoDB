@@ -10,3 +10,4 @@ def home():
     return "This is Home page"
 
 import User_control   # Import the User_control.py file into app.py
+import data_json.api as api  # Import the data_json/api.py file into app.py
