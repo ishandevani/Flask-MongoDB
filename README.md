@@ -34,30 +34,31 @@ Prevent pycham file
 export PYTHONDONTWRITEBYTECODE=1
 ```
 
-### Task 1: JSON API Route
+# Flask User Registration with MongoDB Atlas $ backend 
 
-Create a Flask application with an /api route. When this route is accessed, it should return a JSON list. The data should be stored in a backend file, read from it, and sent as a response.
-
-
-This assignment is a simple Flask web application that demonstrates basic routing, Python module imports, and creating a JSON API using data stored in a JSON file.
+This project is a Flask web application that collects user information through a frontend form and stores the data in MongoDB Atlas.
 
 ## Features
 
-- Flask application setup
-- Home (`/`) route
-- `/home` route
-- `/api` route for JSON data
-- Reads user data from `data.json`
-- Returns JSON response using Flask `jsonify()`
+- Modern and responsive user registration form
+- Flask backend
+- MongoDB Atlas database integration
+- Stores Name, Age, and Email
+- Success page after successful submission
+- Displays errors on the same page
+- Environment variables used for database credentials
 
 ## Project Structure
 
 ```text
-project/
+Flask-MongoDB/
 │
 ├── app.py
-├── User_control.py
+├── user_control.py
+├── test_mongodb.py
+├── .env
+├── .gitignore
 │
-└── data_json/
-    ├── api.py
-    └── data.json
+└── templates/
+    ├── user_form.html
+    └── success.html
