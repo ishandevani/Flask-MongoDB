@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Success</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        .success-card {
+            background: white;
+            width: 90%;
+            max-width: 450px;
+            padding: 45px 35px;
+            text-align: center;
+            border-radius: 18px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon {
+            width: 75px;
+            height: 75px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: #e8f8ee;
+            color: #28a745;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #222;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        a:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="success-card">
+
+    <div class="icon">
+        ✓
+    </div>
+
+    <h1>Success!</h1>
+
+    <p>Data submitted successfully</p>
+
+    <a href="/user">
+        Submit Another User
+    </a>
+
+</div>
+
+</body>
+</html>
